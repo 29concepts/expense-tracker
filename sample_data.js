@@ -56,7 +56,7 @@ const data = {
   transactions: [
     {
       id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-      date: 'Sep 9, 2019',
+      date: '2019-09-09T11:53:05',
       amount: 80000,
       payment_method: 'UBL Transfer',
       category: 'Equipment',
@@ -67,7 +67,7 @@ const data = {
     },
     {
       id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-      date: 'Sep 17, 2019',
+      date: '2019-09-17T11:53:05', // ISO 8601 date time string
       amount: 2085,
       payment_method: 'UBL Card', // get this from the payment_methods table
       category: 'Food', // get this from the categories table
@@ -78,7 +78,7 @@ const data = {
     },
     {
       id: '58694a0f-3da1-471f-bd96-145571e29d72',
-      date: 'Sep 11, 2019',
+      date: '2019-09-11T11:53:05',
       amount: 5309,
       payment_method: 'Cash', // get this from the payment_methods table
       category: 'Gifts', // get this from the categories table
@@ -89,7 +89,7 @@ const data = {
     },
     {
       id: '3a1234fc-c605-48d3-a4f8-fbd91aa97f63',
-      date: 'Sep 07, 2019',
+      date: '2019-09-07T11:53:05',
       amount: 3000,
       payment_method: 'Cash', // get this from the payment_methods table
       category: 'Food', // get this from the categories table
@@ -100,7 +100,7 @@ const data = {
     },
     {
       id: '3ac68acc-c605-48d3-a4f8-fbd91aa97f63',
-      date: 'Sep 13, 2019',
+      date: '2019-09-13T11:53:05',
       amount: 971,
       payment_method: 'UBL Card', // get this from the payment_methods table
       category: 'Fitness', // get this from the categories table
@@ -111,12 +111,23 @@ const data = {
     },
     {
       id: '3ac68adc-c605-48d3-a4f8-fbd91aa97f63',
-      date: 'Sep 01, 2019',
+      date: '2019-09-01T11:53:05',
       amount: 35000,
       payment_method: 'Bank deposit', // get this from the payment_methods table
       category: 'Salary', // get this from the categories table
       location: '', // get this from the places table
       details: 'Payment from Pushback Ltd.',
+      notes: '',
+      type: 'credit'
+    },
+    {
+      id: '3ac68adc-c605-48d3-1234-fbd91aa97f63',
+      date: '2019-09-05T11:53:05',
+      amount: 15000,
+      payment_method: 'Xero', // get this from the payment_methods table
+      category: 'Payment', // get this from the categories table
+      location: '', // get this from the places table
+      details: 'Payment from RBY',
       notes: '',
       type: 'credit'
     }
