@@ -34,3 +34,5 @@ colors
 ### Docs
 
 - [react-navigation](https://reactnavigation.org/docs/en/getting-started.html)
+- [styled-components](https://www.styled-components.com/)
+- [Expo Icons demo](https://expo.github.io/vector-icons/)
