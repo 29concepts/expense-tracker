@@ -92,7 +92,7 @@ const data = {
       date: '2019-09-07T11:53:05',
       amount: 3000,
       payment_method: 'Cash', // get this from the payment_methods table
-      category: 'Food', // get this from the categories table
+      category: 'Car', // get this from the categories table
       location: 'Total Airport Road', // get this from the places table
       details: 'Petrol',
       notes: '',
