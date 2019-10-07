@@ -30,7 +30,11 @@ colors
 ### Advanced functionality
 
 - Smart budgets: let user set and see budget. e.g. you have spent 80% of your food budget this month. You can spend Rs. 2300 more on food.
+- Multiple currencies
 
 ### Docs
 
 - [react-navigation](https://reactnavigation.org/docs/en/getting-started.html)
+- [styled-components](https://www.styled-components.com/)
+- [Expo Icons demo](https://expo.github.io/vector-icons/)
+- [Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)
